@@ -12,6 +12,7 @@ export class ItemComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
+
   selectItem() {
     this.sendPersonne.emit(this.personne);
   }
